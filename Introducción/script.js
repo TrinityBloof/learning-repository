@@ -1,2 +1,5 @@
-var edad = 17;
-console.log(edad);
+let x,y,z
+
+x = 5
+y = 7
+z = 0
