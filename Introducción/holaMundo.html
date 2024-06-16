@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
     <title>Mi primera página web con Javascript</title>
+    <script defer>
+        alert('Se ejecuta dede el head');
+    </script>
+    <script defer src="./holaMundo.js"></script>
 </head>
 <body>
     <h1>Hola Mundo!</h1>
+    <!-- Forma #1 - Etiqueta script -->
     <script>
+        // texto que no se muestra en el navegador
         document.write('<h2>Hola Mundo!</h2>');
-        alert('Hola Mundo!');
+        alert('Hola soy una alerta!');
+        console.log('Hola, desde la consola');
     </script>
 </body>
 </html>
