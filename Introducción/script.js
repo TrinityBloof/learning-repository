@@ -1,5 +1,5 @@
-let x,y,z
+// NUMEROS
+let variableNumero = 10
+let variableDecimal = 10.10
 
-x = 5
-y = 7
-z = 0
+// TEXTO
